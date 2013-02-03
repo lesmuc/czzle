@@ -11,4 +11,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #define SERVICE_URL @"http://dev.studio3w.de"
+
+    #define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_
+
+    #define START_POINTS 5000
 #endif

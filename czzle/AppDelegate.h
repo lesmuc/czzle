@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CocoaLibSpotify.h"
+#import "MBProgressHUD.h"
 
 @class ViewController;
 
@@ -15,5 +17,10 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+
+@property (strong, nonatomic) MBProgressHUD *HUD;
+
+- (void)showHUD;
+- (void)hideHUD;
 
 @end
