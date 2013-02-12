@@ -1,0 +1,3 @@
+[submodule "api/lib/EchoNest"]
+	path = api/lib/EchoNest
+	url = git@github.com:bshaffer/php-echonest-api.git
